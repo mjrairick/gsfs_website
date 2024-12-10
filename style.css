@@ -1,0 +1,75 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background: url('https://github.com/mjrairick/gsfs_website/blob/main/Screenshot%202024-12-10%20120329.png?raw=true') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+  padding: 20px;
+}
+
+/* Header Styling */
+header h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Main Section */
+main p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Audio Player Styling */
+.audio-player {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  display: inline-block;
+}
+
+audio {
+  width: 300px;
+  outline: none;
+}
+
+/* Footer Styling */
+footer p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main p {
+    font-size: 1rem;
+  }
+
+  audio {
+    width: 100%;
+  }
+}
+
