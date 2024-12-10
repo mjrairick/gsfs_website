@@ -30,12 +30,17 @@ header h1 {
   border-bottom: 2px solid white;
   display: inline-block;
   padding-bottom: 5px;
+  font-family: 'Silkscreen', cursive;
 }
 
 /* Main Section */
+main section {
+  margin-bottom: 30px;
+}
+
 main p {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Audio Player Styling */
@@ -72,4 +77,3 @@ footer p {
     width: 100%;
   }
 }
-
